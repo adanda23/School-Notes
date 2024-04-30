@@ -30,12 +30,20 @@ Suppose that a flock of 20 pigeons flies into a set of 19 pigeonholes to roost. 
 
 ## Permutations and Combinations
 
-$P(n,k)$ =$\begin{pmatrix}   n\\   k   \end{pmatrix}$= $\huge{\frac{n!}{(n-k)!}}$ (use when order does matter)
+$P(n,k)$ =$\begin{pmatrix}   n\\   k   \end{pmatrix}$= $\huge{\frac{n!}{(n-k)!}}$ 
+(use when order does matter)
 
-$C(n,k)$ =$\begin{pmatrix}   c\\   k   \end{pmatrix}$ =  $\huge{\frac{n!}{k!(n-k)!}}$ (use when order does not matter)
 
-$\begin{pmatrix}   n+k-1\\   n-1   \end{pmatrix}$  (use when elements possibly repeat)
+$C(n,k)$ =$\begin{pmatrix}   c\\   k   \end{pmatrix}$ =  $\huge{\frac{n!}{k!(n-k)!}}$ 
+(use when order does not matter)
 
-$n^k$ (use for k-length string over alphabet A={1,2,3...})
+
+$\begin{pmatrix}   n+k-1\\   n-1   \end{pmatrix}$  
+(use when elements possibly repeat)
+
+
+$n^k$ 
+(use for k-length string over alphabet A={1,2,3...})
+
 
 Add permutations to signify OR, multiply to signify AND
